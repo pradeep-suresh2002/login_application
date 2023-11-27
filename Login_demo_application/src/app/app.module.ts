@@ -7,13 +7,15 @@ import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
-import {MatFormFieldControl, MatFormFieldModule} from '@angular/material/form-field'
+import {MatFormFieldControl, MatFormFieldModule} from '@angular/material/form-field';
+import { SignUpComponent } from './sign-up/sign-up.component'
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
