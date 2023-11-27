@@ -1,0 +1,35 @@
+.signup-container{
+  inline-size: 24rem;
+  block-size: 30rem;
+  border: 1px solid whitesmoke;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  padding: 2vw;
+  color: whitesmoke;
+  position: absolute;
+  top:45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .signup-grid{
+    display: flex;
+    flex-direction: column;
+    block-size: 100%;
+    justify-content: space-evenly;
+  }
+
+  .signup-heading{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .signup-button{
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    border : none;
+    background-color: whitesmoke;
+    color: black;
+  }
+}

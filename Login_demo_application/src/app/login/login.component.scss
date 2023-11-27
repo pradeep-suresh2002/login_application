@@ -13,9 +13,10 @@
   transform: translate(-50%, -50%);
 
   .login-grid{
-    display: grid;
-    grid-template-rows: auto;
-    row-gap: 25px;
+    display: flex;
+    flex-direction: column;
+    block-size: 100%;
+    justify-content: space-evenly;
 
   }
 
@@ -32,7 +33,7 @@
 
   .visibility-icon{
     position: absolute;
-    top : 42%;
+    top : 44%;
     right: 13%;
 
   }
