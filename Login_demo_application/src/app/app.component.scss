@@ -3,8 +3,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100vw;
-  height: 100vh;
+  inline-size: 100vw;
+  block-size: 100vh;
 
   .login{
     position: absolute;
