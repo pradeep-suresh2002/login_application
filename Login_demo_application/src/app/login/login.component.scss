@@ -1,4 +1,4 @@
-.login-container{
+.login-container {
   inline-size: 22rem;
   block-size: 22rem;
   border: 1px solid whitesmoke;
@@ -8,59 +8,57 @@
   padding: 2vw;
   color: whitesmoke;
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  .login-grid{
+  .login-grid {
     display: flex;
     flex-direction: column;
     block-size: 100%;
     justify-content: space-evenly;
-
   }
 
-  .login-heading{
+  .login-heading {
     font-size: 2rem;
     display: grid;
     text-align: center;
   }
 
-  .input-fields{
+  .input-fields {
     display: grid;
     row-gap: 1.25rem;
   }
 
-  .visibility-icon{
+  .visibility-icon {
     position: absolute;
-    top : 44%;
+    top: 44%;
     right: 13%;
-
   }
 
-  .forgot-password{
+  .forgot-password {
     text-align: end;
 
-    :hover{
+    :hover {
       cursor: pointer;
     }
   }
 
-  .login-button{
+  .login-button {
     padding: 0.75rem;
     font-size: 1.1rem;
     border-radius: 1rem;
-    border : none;
+    border: none;
     background-color: whitesmoke;
     color: black;
   }
-  .login-button:hover{
+  .login-button:hover {
     cursor: pointer;
   }
-  .nav-signup{
+  .nav-signup {
     text-align: center;
 
-    .register{
+    .register {
       cursor: pointer;
     }
   }

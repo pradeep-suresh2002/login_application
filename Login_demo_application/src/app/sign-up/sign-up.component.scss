@@ -23,13 +23,17 @@
     font-size: 2rem;
     text-align: center;
   }
-
-  .signup-button{
+  .nav-button-container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav-button{
     padding: 0.75rem;
     font-size: 1.1rem;
     border-radius: 1rem;
     border : none;
     background-color: whitesmoke;
     color: black;
+
   }
 }
