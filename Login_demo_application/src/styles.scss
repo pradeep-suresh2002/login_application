@@ -6,7 +6,7 @@ body {
 }
 
 
-input.login-page-inputs {
+input.auth-page-inputs {
   block-size: 2rem;
   margin-bottom: 10px;
   border: 2px solid whitesmoke;
@@ -16,17 +16,16 @@ input.login-page-inputs {
   color: whitesmoke;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
-  display: inline;
 
   :hover{
     cursor: pointer;
   }
 }
 
-input.login-page-inputs:focus{
+input.auth-page-inputs:focus{
   outline:none
 }
-input.login-page-inputs::placeholder{
+input.auth-page-inputs::placeholder{
   color: whitesmoke
 }
 
