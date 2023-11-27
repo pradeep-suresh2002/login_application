@@ -1,0 +1,62 @@
+.login-container{
+  width: 22rem;
+  height: 22rem;
+  border: 1px solid whitesmoke;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  padding: 2vw;
+  color: whitesmoke;
+
+  .login-grid{
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 25px;
+
+  }
+
+  .login-heading{
+    font-size: 2rem;
+    display: grid;
+    text-align: center;
+  }
+
+  .input-fields{
+    display: grid;
+    row-gap: 1.25rem;
+  }
+
+  .visibility-icon{
+    position: absolute;
+    top : 42%;
+    right: 13%;
+
+  }
+
+  .forgot-password{
+    text-align: end;
+
+    :hover{
+      cursor: pointer;
+    }
+  }
+
+  .login-button{
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    border : none;
+    background-color: whitesmoke;
+    color: black;
+  }
+  .login-button:hover{
+    cursor: pointer;
+  }
+  .nav-signup{
+    text-align: center;
+
+    .register{
+      cursor: pointer;
+    }
+  }
+}
